@@ -151,6 +151,18 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\BW Keys.jpg" />
+    <Content Include="Content\img\BW Mom and Child 2.jpg" />
+    <Content Include="Content\img\BW Mom and Child.jpg" />
+    <Content Include="Content\img\Car.jpeg" />
+    <Content Include="Content\img\Keys.jpeg" />
+    <Content Include="Content\img\Logo\Favicon-Large.png" />
+    <Content Include="Content\img\Logo\Primary-Logo-Reverse.png" />
+    <Content Include="Content\img\Logo\Primary-Logo.png" />
+    <Content Include="Content\img\Logo\Favicon.png" />
+    <Content Include="Content\img\Mom and Child 2.jpeg" />
+    <Content Include="Content\img\Mom and Child.jpg" />
+    <Content Include="Content\styles\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

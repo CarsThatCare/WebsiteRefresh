@@ -1,6 +1,9 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900');
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +24,98 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+/* Custom Font */
+
+h1 {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* Custom Colors */
+
+.white {
+    color: #861b55;
+}
+
+.bwhite {
+    background: #861b55;
+}
+
+.grey {
+    color: #e5e5e5;
+}
+
+.bgrey {
+    background: #e5e5e5;
+}
+
+.maroon {
+    color: #861b55;
+}
+
+.bmaroon {
+    background: #861b55;
+}
+
+.dark-maroon {
+    color: #661445;
+}
+
+.bdark-maroon {
+    background: #661445;
+}
+
+.red {
+    color: #f16561;
+}
+
+.bred {
+    background: #f16561;
+}
+
+.dark-red {
+    color: #d85656;
+}
+
+.bdark-red {
+    background: #d85656;
+}
+
+.black {
+    color: #21171e;
+}
+
+.bblack {
+    background: #21171e;
+}
+
+.dark-black {
+    color: #060506;
+}
+
+.bdark-black {
+    background: #060506;
 }

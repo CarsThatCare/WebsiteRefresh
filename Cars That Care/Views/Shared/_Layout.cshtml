@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Providing cars for single mothers and needy families.</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/styles/styles.css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+    <div class="navbar navbar-fixed-top">
+        <div class="container navbar-container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar bdark-black"></span>
+                    <span class="icon-bar bdark-black"></span>
+                    <span class="icon-bar bdark-black"></span>
                 </button>
-                @Html.ActionLink("Cars That Care", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <img id="primary-logo" class="img-responsive" src="~/Content/img/Logo/Primary-Logo.png" />
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -30,7 +31,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year @ViewBag.Title</p>
+            <p>&copy; @DateTime.Now.Year Cars That Care Foundation. All Rights Reserved.</p>
         </footer>
     </div>
 
