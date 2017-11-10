@@ -143,6 +143,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StoryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -151,17 +152,25 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\AlyssaBen.jpg" />
+    <Content Include="Content\img\benLynda.jpg" />
     <Content Include="Content\img\BW Keys.jpg" />
     <Content Include="Content\img\BW Mom and Child 2.jpg" />
     <Content Include="Content\img\BW Mom and Child.jpg" />
     <Content Include="Content\img\Car.jpeg" />
+    <Content Include="Content\img\car.jpg" />
+    <Content Include="Content\img\jessica.jpg" />
     <Content Include="Content\img\Keys.jpeg" />
+    <Content Include="Content\img\keys.jpg" />
     <Content Include="Content\img\Logo\Favicon-Large.png" />
+    <Content Include="Content\img\Logo\jessica1.jpg" />
     <Content Include="Content\img\Logo\Primary-Logo-Reverse.png" />
     <Content Include="Content\img\Logo\Primary-Logo.png" />
     <Content Include="Content\img\Logo\Favicon.png" />
+    <Content Include="Content\img\lynn.jpg" />
     <Content Include="Content\img\Mom and Child 2.jpeg" />
     <Content Include="Content\img\Mom and Child.jpg" />
+    <Content Include="Content\img\momAndChild.jpg" />
     <Content Include="Content\styles\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -197,6 +206,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Story\Story1.cshtml" />
+    <Content Include="Views\Story\Story2.cshtml" />
+    <Content Include="Views\Story\Story4.cshtml" />
+    <Content Include="Views\Story\Story3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
