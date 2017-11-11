@@ -1,8 +1,6 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900');
-
-body {
+﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -32,26 +30,31 @@ textarea {
 h1 {
     font-weight: 900;
     font-size: 36px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     font-weight: 300;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h5 {
     font-weight: 600;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h6 {
     font-weight: 300;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     font-weight: 300;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Custom Colors */

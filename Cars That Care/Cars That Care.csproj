@@ -35,6 +35,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -157,9 +158,15 @@
     <Content Include="Content\img\BW Keys.jpg" />
     <Content Include="Content\img\BW Mom and Child 2.jpg" />
     <Content Include="Content\img\BW Mom and Child.jpg" />
+    <Content Include="Content\img\call-answer.svg" />
     <Content Include="Content\img\Car.jpeg" />
     <Content Include="Content\img\car.jpg" />
     <Content Include="Content\img\jessica.jpg" />
+    <Content Include="Content\img\carsThatCareChild.jpg" />
+    <Content Include="Content\img\carsThatCareHug.jpg" />
+    <Content Include="Content\img\carsThatCareLove.jpg" />
+    <Content Include="Content\img\close-envelope.svg" />
+    <Content Include="Content\img\facebook-logo-button.svg" />
     <Content Include="Content\img\Keys.jpeg" />
     <Content Include="Content\img\keys.jpg" />
     <Content Include="Content\img\Logo\Favicon-Large.png" />
@@ -232,6 +239,12 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
@@ -243,6 +256,9 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+          <servers defaultServer="SelfHostServer">
+            <server name="SelfHostServer" exePath="" cmdArgs="" url="http://localhost:50378/" workingDir="" />
+          </servers>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

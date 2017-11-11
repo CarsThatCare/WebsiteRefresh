@@ -7,6 +7,8 @@
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/styles/styles.css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Content/Site.css")
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" />
 </head>
 <body>
     <div class="navbar navbar-fixed-top">
@@ -17,23 +19,48 @@
                     <span class="icon-bar bdark-black"></span>
                     <span class="icon-bar bdark-black"></span>
                 </button>
-                <img id="primary-logo" class="img-responsive" src="~/Content/img/Logo/Primary-Logo.png" />
+                <a href="@Url.Action("Index", "Home")">
+                    <img id="primary-logo" class="img-responsive" src="~/Content/img/Logo/Primary-Logo.png" />
+                </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li class="nav-page">@Html.ActionLink("Donate", "About", "Home")</li>
+                    <li class="nav-page">@Html.ActionLink("About", "About", "Home")</li>
+                    <li class="nav-page">@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year Cars That Care Foundation. All Rights Reserved.</p>
-        </footer>
     </div>
+    <footer>
+        <div class="row bblack">
+          <div class="col-sm-5 text-center">
+              <a href="@Url.Action("Index", "Home")">
+                  <img id="footer-logo" src="~/Content/img/Logo/Primary-Logo-Reverse.png" />
+              </a>
+              <p id="copyright">&copy; @DateTime.Now.Year Cars That Care Foundation. All Rights Reserved.</p>
+          </div>
+          <div id="footer-contact" class="col-sm-7 text-center">
+              <div>
+                  <a target="_blank" rel="noopener" href="https://www.facebook.com/Cars-That-Care-Foundation-180412452097247/">
+                      <img class="footer-icon" src="~/Content/img/facebook-logo-button.svg" />
+                  </a>
+                  <a href="@Url.Action("Contact", "Home")">
+                      <img class="footer-icon" src="~/Content/img/close-envelope.svg" />
+                  </a>
+                  <a href="tel:8012944060">
+                      <img id="phone-icon" class="footer-icon" src="~/Content/img/call-answer.svg" />
+                  </a>
+              </div>
+              <div id="earl-quote">"A hand up, not just another hand out."
+                  <div id="author">&mdash; Founder, Earl DeWaal</div>
+              </div>
+          </div>
+        </div>
+    </footer>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
