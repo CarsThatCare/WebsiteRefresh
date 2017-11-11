@@ -75,6 +75,7 @@
 h2 {
     font-family: 'Roboto';
 }
+
 #jumbo-announce {
     font-family: 'Roboto';
     color: white;
@@ -131,13 +132,58 @@ footer {
     font-size: 12px;
 }
 
+/************ Home Page & Stories *************/
+
+.ssbox {
+
+    min-height: 200px;
+    padding: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.box-container {
+    margin: 0 auto;
+}
+
+.box-container h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.box-container a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.box-container:hover {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.50);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /*******************************************************************************************************/
 /*******************************************************************************************************/
 /***************************************** Mobile Styles ***********************************************/
 /*******************************************************************************************************/
 /*******************************************************************************************************/
-
 
 @media only screen and (max-width: 768px) and (max-height: 768px) {
 
@@ -158,13 +204,13 @@ footer {
         margin-right: -6px;
         text-align: end;
     }
+  
     /******************* Mobile Jumbotron ******************/
 
     #jumbo-announce {
         font-size: 27px;
         width: 100%;
     }
-
 
     /******************* Mobile Footer ******************/
 
