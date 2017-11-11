@@ -155,12 +155,13 @@
     <Content Include="Content\img\BW Keys.jpg" />
     <Content Include="Content\img\BW Mom and Child 2.jpg" />
     <Content Include="Content\img\BW Mom and Child.jpg" />
+    <Content Include="Content\img\call-answer.svg" />
     <Content Include="Content\img\Car.jpeg" />
     <Content Include="Content\img\carsThatCareChild.jpg" />
     <Content Include="Content\img\carsThatCareHug.jpg" />
     <Content Include="Content\img\carsThatCareLove.jpg" />
-    <Content Include="Content\img\email-icon.png" />
-    <Content Include="Content\img\facebook-icon.png" />
+    <Content Include="Content\img\close-envelope.svg" />
+    <Content Include="Content\img\facebook-logo-button.svg" />
     <Content Include="Content\img\Keys.jpeg" />
     <Content Include="Content\img\Logo\Favicon-Large.png" />
     <Content Include="Content\img\Logo\Primary-Logo-Reverse.png" />

@@ -86,20 +86,20 @@ h2 {
 
 footer {
     height: 200px;
-    background: #f16561;
+    background: #21171e;
     color: white;
     margin-top: 50px;
 }
 
 #footer-logo {
-    height: 50px;
+    height: 54px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 #footer-contact {
     height: 200px;
-    border-left: 2px solid white;
+    border-left: 1px solid #484848;
 }
 
 #earl-quote {
@@ -109,13 +109,26 @@ footer {
     bottom: 0px;
     left: 0px;
     width: 100%;
-    border-top: 2px solid white;
-    padding-top: 50px;
+    border-top: 1px solid #484848;
+    padding-top: 41px;
+}
+
+#author {
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .footer-icon {
-    height: 35px;
-    margin: 20px;
+    height: 28px;
+    margin: 23px;
+}
+
+#phone-icon {
+    height: 24px;
+}
+
+#copyright {
+    font-size: 12px;
 }
 
 
@@ -141,7 +154,10 @@ footer {
         right: 25px;
         bottom: 10px;
     }
-
+    .navbar-nav {
+        margin-right: -6px;
+        text-align: end;
+    }
     /******************* Mobile Jumbotron ******************/
 
     #jumbo-announce {

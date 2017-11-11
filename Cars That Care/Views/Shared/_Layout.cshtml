@@ -36,23 +36,28 @@
         @RenderBody()
     </div>
     <footer>
-        <div class="row">
+        <div class="row bblack">
           <div class="col-sm-5 text-center">
               <a href="@Url.Action("Index", "Home")">
                   <img id="footer-logo" src="~/Content/img/Logo/Primary-Logo-Reverse.png" />
               </a>
-              <p>&copy; @DateTime.Now.Year Cars That Care Foundation. All Rights Reserved.</p>
+              <p id="copyright">&copy; @DateTime.Now.Year Cars That Care Foundation. All Rights Reserved.</p>
           </div>
           <div id="footer-contact" class="col-sm-7 text-center">
               <div>
                   <a target="_blank" rel="noopener" href="https://www.facebook.com/Cars-That-Care-Foundation-180412452097247/">
-                      <img class="footer-icon" src="~/Content/img/facebook-icon.png" />
+                      <img class="footer-icon" src="~/Content/img/facebook-logo-button.svg" />
                   </a>
                   <a href="@Url.Action("Contact", "Home")">
-                      <img class="footer-icon" src="~/Content/img/email-icon.png" />
+                      <img class="footer-icon" src="~/Content/img/close-envelope.svg" />
+                  </a>
+                  <a href="tel:8012944060">
+                      <img id="phone-icon" class="footer-icon" src="~/Content/img/call-answer.svg" />
                   </a>
               </div>
-              <div id="earl-quote">"A hand up, not just another hand out."</div>
+              <div id="earl-quote">"A hand up, not just another hand out."
+                  <div id="author">&mdash; Founder, Earl DeWaal</div>
+              </div>
           </div>
         </div>
     </footer>
