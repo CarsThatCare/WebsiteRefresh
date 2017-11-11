@@ -1,13 +1,158 @@
-﻿/* Navbar */
+﻿/******************* Navbar ******************/ 
+
 #primary-logo {
     height: 65px;
     padding-top: 10px;
+    position: relative;
+    bottom: 7px;
 }
 
 .navbar-container {
     margin-top: 10px;
 }
 
+.navbar {
+    background: white;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
 .jumbotron {
     margin-top: 50px;
+}
+
+.navbar-nav {
+    float: right;
+    margin-top: 15px;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+}
+
+.nav-page {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.nav-page > a {
+    color: black;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 10px;
+}
+
+.nav > li > a:hover {
+    background: #f16561;
+    color: white;
+    border-radius: 5px;
+}
+
+#learn-more-btn {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.body-content {
+    margin-top: 30px;
+}
+
+.jumbotron {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45) ), url('../img/carsThatCareHug.jpg');
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+#jumbo-announce {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 38px;
+    width: 80%;
+}
+
+/******************* Footer ******************/
+
+footer {
+    height: 200px;
+    background: #f16561;
+    color: white;
+    margin-top: 50px;
+}
+
+#footer-logo {
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#footer-contact {
+    height: 200px;
+    border-left: 2px solid white;
+}
+
+#earl-quote {
+    font-size: 18px;
+    height: 125px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    border-top: 2px solid white;
+    padding-top: 50px;
+}
+
+.footer-icon {
+    height: 35px;
+    margin: 20px;
+}
+
+
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+/***************************************** Mobile Styles ***********************************************/
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+
+
+@media only screen and (max-width: 768px) and (max-height: 768px) {
+
+    /******************* Mobile Navbar ******************/
+
+    #primary-logo {
+        margin-left: 25px;
+    }
+    .navbar-toggle {
+        margin-top: 13px;
+    }
+    .nav > li > a {
+        position: relative;
+        right: 25px;
+        bottom: 10px;
+    }
+
+    /******************* Mobile Jumbotron ******************/
+
+    #jumbo-announce {
+        font-size: 27px;
+        width: 100%;
+    }
+
+
+    /******************* Mobile Footer ******************/
+
+    footer {
+        height: 365px;
+    }
 }
