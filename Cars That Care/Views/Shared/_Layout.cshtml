@@ -6,8 +6,8 @@
     <title>@ViewBag.Title - Providing cars for single mothers and needy families.</title>
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/styles/styles.css")
+    @Styles.Render("~/Content/Site.css")
     @Scripts.Render("~/bundles/modernizr")
-    @Scripts.Render("~/Content/Site.css")
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" />
 </head>
 <body>
@@ -36,7 +36,7 @@
         @RenderBody()
     </div>
     <footer>
-        <div class="row bblack">
+        <div class="row">
           <div class="col-sm-5 text-center">
               <a href="@Url.Action("Index", "Home")">
                   <img id="footer-logo" src="~/Content/img/Logo/Primary-Logo-Reverse.png" />

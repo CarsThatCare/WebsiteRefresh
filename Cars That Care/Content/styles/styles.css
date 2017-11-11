@@ -142,6 +142,47 @@ footer {
     
 }
 
+#home-help-text, .home-story-title {
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.home-story-title {
+    font-size: 18px;
+}
+
+#home-why-help-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#home-why-help {
+    margin-top: 40px;
+}
+
+.home-step {
+    margin-top: 15px;
+}
+
+.home-step-header {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.home-step-paragraph {
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#home-success-header {
+    margin: 40px 0px 20px 0px;
+}
+
 .box-container {
     margin: 0 auto;
 }
