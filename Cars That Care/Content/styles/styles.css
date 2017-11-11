@@ -220,6 +220,27 @@ footer {
     height: 100%;
 }
 
+/******************** About Page ********************/
+
+#About-Us, .about-header, .myVideo, #Video, #story, #video-text, #testimonial-header, #testimonial-text {
+    text-align: center;
+}
+
+.about_onpage_links {
+    text-align: center;
+    color: #21171e;
+}
+
+.carousel-inner > .item > img {
+    height: 370px;
+    width: 555px;
+}
+/*
+#about-row {
+    padding: 15px;
+    margin: 15px;
+}*/
+
 /*******************************************************************************************************/
 /*******************************************************************************************************/
 /***************************************** Mobile Styles ***********************************************/
