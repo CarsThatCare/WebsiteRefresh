@@ -1,17 +1,40 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<h2>@ViewBag.Title Us</h2>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="row">
+    <div class="col-md-4">
+        <h3 class="text-center">Address</h3>
+        <address >
+            423 North 800 West<br />
+            West Bountiful, Utah 84087<br />
+            <a href="tel:801-294-4060">801-294-4060</a>
+        </address>
+        <br />
+       <h3 class="text-center">Contact Info</h3>
+        <form>
+            First name:<br>
+            <input type="text" name="firstname" value="" style="width:225px">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="" style="width:225px">
+            <br>
+            Phone Number:<br>
+            <input type="text" name="phonenum" value="" style="width:225px">
+            <br>
+            Email:<br>
+            <input type="text" name="email" value=""  style="width:225px">
+            <br>
+            Message:<br>
+            <textarea name="message" style="width:225px; height:125px;"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
+    <div class="col-md-8">
+        <h3 class="text-center">Map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.9841269168946!2d-111.90504478458945!3d40.89416307931251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f82d12f0d363%3A0x7fc43ca2b197ef2e!2sCars+That+Care!5e0!3m2!1sen!2sus!4v1510518458576" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>
